@@ -517,8 +517,10 @@
 		margin-left: 3em;
 		margin-right: 3em;
 		border: #000000 solid 1pt;
-		border-radius: 45pt;
-		background: #ffffffbd;
+		
+		height: 70pt;
+		width: 70pt;
+		border-radius: 25pt;
 		
 	}
 
@@ -526,6 +528,19 @@
 		background: rgba(199, 196, 196, 0.336);
 	}
 
+	#iconlets {
+		display: inline-block;
+		padding: 1em;
+		margin: 1em;
+		margin-left: 1em;
+		margin-right: 1em;
+		border: #000000 solid 1pt;
+		height: 90pt;
+		width: 90pt;
+		border-radius: 25pt;
+		background: #ffffffbd;
+		
+	}
 
 	.tag {
 		padding-top: 5pt;
