@@ -117,7 +117,7 @@
 			{
 				font-size: 12pt;
 				background: rgba(255, 255, 255, 0);
-				border: #000000 solid 0.4pt;
+				border: #000000 solid 1pt;
 				border-radius: 25pt;
 				padding: 1em;
 				margin-bottom: 1em;
@@ -815,12 +815,12 @@
 	#copyright p
 	{
 		text-indent: 0pt;
-		font-size: 9pt;
+		font-size: 7pt;
 		letter-spacing: 0.20em;
 		align-content: center;
 		text-align: center;
 		text-transform: uppercase;
-		color: rgba(0, 0, 0, 0.596);
+		color: rgba(90, 90, 90, 0.596);
 	}
 	
 	#copyright a
