@@ -10,7 +10,7 @@
 
 	<link href="default.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
-	
+
 	<link rel="shortcut icon" type="image/png" href="/Favicon/favicon_package_v0/favicon-16x16.png" />
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122377229-1"></script>
@@ -70,16 +70,17 @@
 			<center>
 				<form action="process.php" method="POST" class="formbox">
 					<h1>Contact Form-</h1>
+					
 					<br>
 					<div class="form">
-						<input type="text" name="fname" placeholder="First Name">
+						<input type="text" name="fname" placeholder="First Name *">
 
-						<input type="text" name="lname" placeholder="Last Name">
+						<input type="text" name="lname" placeholder="Last Name *">
 					</div>
 					<br>
 					<br>
 					<div class="form">
-						<input type="text" name="email" placeholder="Email">
+						<input type="text" name="email" placeholder="Email *">
 
 						<input type="text" name="company" placeholder="Company/Organization">
 					</div>
@@ -91,7 +92,7 @@
 					<br>
 					<br>
 					<div>
-						<input type="submit" value="SUBMIT" class="submit">
+						<input type="submit" name="formsubmit" value="Submit" class="submit">
 					</div>
 
 				</form>
