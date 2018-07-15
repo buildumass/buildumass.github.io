@@ -2,7 +2,6 @@
 
 $firstname = $lastname = $email = $company = $message = "";
 
-if($_POST['formSubmit'] == "Submit") {
 
     if (empty($_POST["fname"])) {
         echo "First Name is required";
@@ -28,5 +27,5 @@ if($_POST['formSubmit'] == "Submit") {
     mail ($to, $subject, $message, "From: " . $firstname . $lastname, "Their E-Mail: " . $email);
 
     echo "Your Message has been sent!";
-}
+
 ?>
