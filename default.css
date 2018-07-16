@@ -87,6 +87,11 @@
 			padding: 2em;
 		}
 
+		.error {
+			color: #FF0000;
+			text-indent: 0pt;
+		}
+
 		form h1 {
 			font-weight: 100;
 		}
@@ -507,6 +512,10 @@
 	#downloads {
 		align-content: center;
 		text-align: center;
+	}
+
+	#downloads a{
+		text-decoration: none;
 	}
 	
 
