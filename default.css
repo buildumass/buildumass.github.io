@@ -697,10 +697,10 @@
 	#menu li
 	{
 		display: inline-block;
-		border: rgba(95, 7, 7, 0) solid 1px;
+		border: rgba(255, 255, 255, 0) solid 1px;
+		border-radius: 45pt;
 		margin-left: 2%;
 		margin-right: 2%;
-		
 	}
 	
 	#menu li a, #menu li span
@@ -717,20 +717,20 @@
 		outline: 0;
 		color: rgb(0, 0, 0);
 		border-radius: 45pt;
-		border: rgb(255, 255, 255, 1) solid 1pt;
+		
 	}
 	
-	#menu li:hover a, #menu li.active a, #menu li.active span
+	#menu li:hover, #menu li.active , #menu li.active span
 	{
 		
-		border: rgb(0, 0, 0) solid 1pt;
-		border-radius: 45pt;
+		border-color: rgb(0, 0, 0);
+		
 	}
 	
-	#menu .current_page_item a
+	#menu .current_page_item 
 	{	
-		border: rgb(0, 0, 0) solid 1pt;
-		border-radius: 45pt;
+		border-color: rgb(0, 0, 0);
+		
 	}
 
 	
