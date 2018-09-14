@@ -716,8 +716,8 @@
 		text-transform: uppercase;
 		outline: 0;
 		color: rgb(0, 0, 0);
-		
-		
+		border-radius: 45pt;
+		border: rgb(255, 255, 255, 1) solid 1pt;
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
