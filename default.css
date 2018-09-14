@@ -346,11 +346,13 @@
 		font-weight: 100;
 	}
 
+	
+
 	#htitle {
 		font-size: 72pt;
 		font-weight: 100;
 		font-family: "Helvetica";
-		
+		letter-spacing: 3.5pt;
 	}
 	#htitle2 {
 		font-size: 72pt;
@@ -374,6 +376,12 @@
 	.title h2
 	{
 		font-size: 2.8em;
+		color: rgba(0, 0, 0, 0.9);
+	}
+
+	.title h3
+	{
+		font-size: 2em;
 		color: rgba(0, 0, 0, 0.9);
 	}
 	
@@ -541,8 +549,8 @@
 		display: inline-block;
 		padding: 1em;
 		margin: 1em;
-		margin-left: 1em;
-		margin-right: 1em;
+		margin-left: 2em;
+		margin-right: 2em;
 		border: #000000 solid 1pt;
 		height: 90pt;
 		width: 90pt;
@@ -604,6 +612,12 @@
 		padding-bottom: 8pt;
 	}
 
+	#logo h3
+	{
+		font-size: 18pt;
+		padding-bottom: 8pt;
+	}
+
 	#logo2 h2
 	{
 		font-size: 16pt;
@@ -612,11 +626,14 @@
 	#title
 	{
 		padding: 25px;
-		letter-spacing: 6pt;
-		font-weight: 100;
+		letter-spacing: 4pt;
+		font-weight: 200;
 		background: #ffffff59;
 	}
 	
+	#title h3 {
+		font-size: 18pt;
+	}
 
 	#title2
 	{
@@ -838,155 +855,3 @@
 		color: rgba(255,255,255,0.6);
 	}
 
-/*********************************************************************************/
-/* Newsletter                                                                    */
-/*********************************************************************************/
-
-	#newsletter
-	{
-		overflow: hidden;
-		padding: 8em 0em;
-		background: #EDEDED;
-		text-align: center;
-	}
-	
-	#newsletter .title h2
-	{
-		color: rgba(0,0,0,0.8);
-	}
-	
-	#newsletter .content
-	{
-		width: 600px;
-		margin: 0px auto;
-	}
-	
-/*********************************************************************************/
-/* Portfolio                                                                     */
-/*********************************************************************************/
-
-	#portfolio
-	{
-	}
-	
-	#portfolio .box
-	{
-		text-align: center;
-		color: rgba(0,0,0,0.5);
-	}
-	
-	#portfolio h3
-	{
-		display: block;
-		padding-bottom: 1em;
-		text-transform: uppercase;
-		font-size: 1em;
-		color: rgba(0,0,0,0.6);
-	}
-
-	#portfolio .title
-	{
-		text-align: center;
-	}
-
-	#portfolio .title h2
-	{
-		color: rgba(0,0,0,0.8);
-	}
-
-	.column1,
-	.column2,
-	.column3,
-	.column4
-	{
-		width: 282px;
-	}
-	
-	.column1,
-	.column2,
-	.column3
-	{
-		float: left;
-		margin-right: 24px;
-	}
-	
-	.column4
-	{
-		float: right;
-	}
-
-/*********************************************************************************/
-/* Three Columns                                                                 */
-/*********************************************************************************/
-
-	#three-column
-	{
-		overflow: hidden;
-		text-align: center;
-		color: rgba(255,255,255,.6);
-		font-size: 14pt;
-	}
-	
-	#three-column h2
-	{
-		margin: 1em 0em;
-		text-transform: uppercase;
-		font-size: 1.5em;
-		font-weight: 700;
-		color: rgba(255,255,255,1) !important;
-	}
-	
-	#three-column .icon
-	{
-		position: relative;
-		display: block;
-		margin: 0px auto 0.80em auto;
-		background: none;
-		line-height: 150px;
-		font-size: 4em;
-		width: 150px;
-		height: 150px;
-		border-radius: 100px;
-		border: 6px solid #67128F;
-		text-align: center;
-		color: #FFF;
-		
-	}
-		
-	#three-column #tbox1,
-	#three-column #tbox2,
-	#three-column #tbox3
-	{
-		float: left;
-		width: 320px;
-		padding: 80px 40px 80px 40px;
-	}
-	
-	#three-column .title
-	{
-		letter-spacing: 0.10em;
-		text-align: center;
-		text-transform: uppercase;
-	}
-	
-	#three-column .title h2
-	{
-		font-size: 1.60em;
-		font-weight: 900;
-		font-family: 'Open Sans', sans-serif;
-		color: #00A4D9;
-	}
-	
-	#three-column .title .byline
-	{
-		padding-top: 0.50em;
-		font-size: 0.90em;
-		color: #858585;
-	}
-
-	#three-column .arrow-down
-	{
-		border-top-color: #292929;
-	}
-
-	
